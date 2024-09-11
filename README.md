@@ -1,9 +1,9 @@
 # GPOD_Burgers
-A one-dimensional burgers equation case for Gappy POD written in Julia[^1].
+A one-dimensional burgers equation case written in Julia[^1].
 
 In this case, Gappy POD was applied for multi-fidelity flow reconstruction. The process of reconstruction is summarized as follows: 
 
-### 1. Data generation:
+1. Data generation:
 
 The viscous Burgers equation is written as:
 
@@ -23,7 +23,7 @@ Then the viscous term in the Burgers equation was omitted to generate low-fideli
 	<img src="https://github.com/h5ch/GPOD_Burgers/blob/main/Results/Burgers_solution.png" alt="Editor" width="350">
   </div>
 
-### 2. Data reconstruction:
+2. Data reconstruction:
 
 Use SVD to find the POD basis of snapshot.
 
