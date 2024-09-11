@@ -3,7 +3,7 @@ A one-dimensional burgers equation case written in Julia[^1].
 
 In this case, Gappy POD was applied for multi-fidelity flow reconstruction. The process of reconstruction is summarized as follows: 
 
-1. Data generation:
+#### 1. Data generation:
 
 The viscous Burgers equation is written as:
 
@@ -23,7 +23,7 @@ Then the viscous term in the Burgers equation was omitted to generate low-fideli
 	<img src="https://github.com/h5ch/GPOD_Burgers/blob/main/Results/Burgers_solution.png" alt="Editor" width="350">
   </div>
 
-2. Data reconstruction:
+#### 2. Data reconstruction:
 
 Use SVD to find the POD basis of snapshot.
 
@@ -43,7 +43,7 @@ And the reconstruction error depends on the number of POD modes.
 
 The reconstruction error can be seperated into three terms: $c_1$, $c_2$ and $c_3$[^4], which are relative to different properties of the snapshot matrix respectively. 
 
-## References
+### References
 [^1]: Pawar, S., & San, O. (2019). CFD Julia: A learning module structuring an introductory course on computational fluid dynamics. Fluids, 4(3), 159.
 
 [^2]: Maleewong, M., & Sirisup, S. (2011). On-line and Off-line POD Assisted Projective Integral for Non-linear Problems: A Case Study with Burgers-Equation. International Journal of Mathematical and Computational Sciences, 5(7), 984-992.
