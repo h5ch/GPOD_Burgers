@@ -21,7 +21,9 @@ In this case, Gappy POD was applied for multi-fidelity flow reconstruction. The 
 
 2. Data reconstruction:
 
-   Use SVD to find the POD basis of snapshot which was used to reconstruct the solution of invisic Burgers equation with improved accuracy. 
+   Use SVD to find the POD basis of snapshot which was used to reconstruct the solution of invisic Burgers equation with improved accuracy.
+
+   ![image](https://github.com/h5ch/GPOD_Burgers/blob/main/Results/Reconstruction.pdf)
 
 ## References
 [1] Pawar, S., & San, O. (2019). CFD Julia: A learning module structuring an introductory course on computational fluid dynamics. Fluids, 4(3), 159.
