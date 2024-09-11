@@ -14,7 +14,7 @@ The viscous Burgers equation is written as:
 An analytical solution [^2] to standard Burgers equation was used to generated high-fidelity samples. The solution represents a nonlinear wave propagating to the right with decreasing amplitude due to the viscosity effect.
 
   $$
-  u(x,t) = \frac {x/(t+1)} {1 + \sqrt{(t+1)/A_0} exp{Re[x^2/(4t+4)]}}
+  u(x,t) = \frac {x/(t+1)} {1 + \sqrt{(t+1)/A_0} exp{[Rex^2/(4t+4)]}}
   $$
 
 Then the viscous term in the Burgers equation was omitted to generate low-fidelity data, and the invisid Burgers euation was solved using fifth-order TENO scheme [^3]. 
