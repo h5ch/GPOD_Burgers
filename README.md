@@ -18,6 +18,8 @@ An analytical solution [^2] to standard Burgers equation was used to generated h
   $$
 
 Then the viscous term in the Burgers equation was omitted to generate low-fidelity data, and the invisid Burgers euation was solved using fifth-order TENO scheme [^3]. 
+
+Run `burgers_equation.jl` to generate solutions of Burgers equation.
    
   <div align="center">
 	<img src="https://github.com/h5ch/GPOD_Burgers/blob/main/Results/Burgers_solution.png" alt="Editor" width="350">
@@ -29,7 +31,7 @@ Use SVD to find the POD basis of snapshot.
 
   ![image](https://github.com/h5ch/GPOD_Burgers/blob/main/Results/Modes.png)
 
-The POD basis was used to reconstruct the solution of invisic Burgers equation with improved accuracy. 
+The POD basis was used to reconstruct the solution of invisic Burgers equation with improved accuracy. Run `gappy_pod.jl` to reconstruct solutions of Burgers equation.
 
   <div align="center">
 	<img src="https://github.com/h5ch/GPOD_Burgers/blob/main/Results/Reconstruction.png" alt="Editor" width="350">
