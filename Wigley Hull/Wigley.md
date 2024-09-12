@@ -1,5 +1,18 @@
 ## Reconstruction of flow past a ship hull based on multi-fidelty data
 
+Quick and accurate prediction of wave resistance is important during structural and geometrical design and loads evaluation. 
+Methods such as potential-flow panel method and computational fluid dynamics method have been applied to predict ship waves and resistance. 
+Potential-flow panel method solves the boundary integral equation based on the use of a Green function such as Havelock source which satisfies the boundary condition, providing efficient tool for routine applications. 
+However, this kind of method leads to a loss of accuracy due to the assumption that the fluid is inviscid. 
+CFD method solves the Navier-Stokes equations that include most of the relevant flow physics. 
+But CFD method is computationally expensive, which do not meet the requirement of efficiency. 
+
+In this work, multi-fidelity Gappy proper orthogonal decomposition (POD) based method was applied to predict pressure distribution of a Wigley ship hull. 
+Results were post-proceeded to obtain wave resistance and validated by the experimental values. 
+Gappy POD method gave a more accurate prediction than panel method and reduced computational effort compared to CFD simulation.
+The optimum number of modes for reconstruction and the applicability for both interpolation and extrapolation was also evaluated in this work. 
+
+
 ### 1. Data collection:
    Implement panel method (based on invisid equaiton) to generate low-fidelity data and acquire samples with higher fidelity using STAR-CCM+ (based on N-S equation). 
   <div align="center">
