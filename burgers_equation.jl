@@ -1,3 +1,7 @@
+# Reference: 
+# [1] Pawar, S., & San, O. (2019). CFD Julia: A learning module structuring an introductory course on computational fluid dynamics. Fluids, 4(3), 159.
+# [2] 
+
 using CPUTime
 using Printf
 
